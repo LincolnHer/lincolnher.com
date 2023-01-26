@@ -3831,7 +3831,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
-				height: 3.5em;
+				height: 18.5em;
 				left: 0;
 				line-height: 3.5em;
 				overflow: hidden;
@@ -3839,6 +3839,7 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 100%;
+				padding-top: 3.5em;
 			}
 
 				#sidebar > .inner {
@@ -3864,7 +3865,7 @@ input, select, textarea {
 						display: -webkit-flex;
 						display: -ms-flex;
 						display: flex;
-						height: inherit;
+						height: auto;
 						line-height: inherit;
 						margin: 0;
 					}
@@ -3873,7 +3874,7 @@ input, select, textarea {
 							display: block;
 							height: inherit;
 							line-height: inherit;
-							margin: 0 0 0 2em;
+							margin: 0 0 0 1.5em;
 							padding: 0;
 						}
 
@@ -3893,7 +3894,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+				height: 21.5em;
 			}
 
 		}
